@@ -1,0 +1,526 @@
+main{
+    background-color: rgb(209, 91, 110);
+}
+
+.navbar{
+    padding: 0.3em;
+    font-size: 1.2em;
+    background-color: rgb(209, 91, 110);
+}
+
+.navbar-brand{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 15px black; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand:hover{
+    color: crimson;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+    font-size: 1.05em;
+}
+
+.nav-link:hover{
+    color: darkred;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+#sotialmediaicons{
+    color: black;
+    margin: 0.5em;
+}
+
+#mainsection, #aboutdiv, #contactmain, #locationmain{
+    text-align: center;
+    height: 92vh;
+    background-color: rgb(209, 91, 110);
+}
+
+#cakesmain{
+    position: relative;
+    margin-bottom: 3em;
+    text-align: center;
+    background-color: rgb(209, 91, 110);
+}
+
+/*Home Screen=========================================*/
+#mainsection div, #aboutdiv div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#whyid{
+    text-align: center;
+    width: 450px;
+    height: 70vh;
+    background-color: rgb(139, 139, 81);
+    color: aliceblue;
+    margin-top: 10vh;
+    padding: 0.4em;
+    padding-top: 7vh;
+}
+
+#mainphoto1 img{
+    width: 400px;
+    margin-top: 10vh;
+    margin-right: -0.5vh;
+}
+
+#mainphoto2 img{
+    width: 400px;
+    margin-top: 10vh;
+    margin-left: -0.4vh;
+}
+
+#welcometext{
+    font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+    font-size: 4.5em;
+}
+
+/*About Screen========================================*/
+
+#whytext{
+    font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+    font-size: 22px;
+    padding-top: 7vh;
+}
+
+#aboutphotodiv{
+    width: 600px;
+    margin-right: -1.5em;
+}
+
+#abouttextdiv{
+    width: 40%;
+    padding: 1em;
+    background-color: rgb(139, 139, 81);
+    color:aliceblue;
+    font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+    font-size: 1.2em;
+}
+
+#ourhistorytext{
+    font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+    font-size: 3em;
+}
+
+#aboutdiv{
+    padding-top: 7vh;
+}
+
+/*Cakes page==========================================*/
+
+.card{
+    width: 23%;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 3px 3px 15px black;
+    text-align: center;
+}
+
+#cakesection1 .card, #cakesection2 .card, #cakesection3 .card{
+    display: inline-block;
+    vertical-align: top;
+    margin: 2em;
+}
+
+.card img{
+    height: 85%;
+}
+
+.card-body p{
+    color: aliceblue;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Blackadder ITC', 'Fairwater Script Light';
+}
+
+#cakesmain h1{
+    padding-top: 1em;
+    font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 60px;
+    text-shadow: 3px 3px 6px black;
+}
+
+/*Contact Page*/
+#contactmain h1{
+    font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 7px coral;
+    font-size: 3.5em;
+}
+
+#contactmain form{
+    display: block;
+    width: 40%;
+    background-color: coral;
+    padding: 4em;
+    border-radius: 15px;
+}
+
+#contactmain form, #contactmain img{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    margin-top: 10vh;
+}
+
+#contactmain img{
+    margin-left: -2em;
+    height: 700px;
+    border-radius: 20px;
+}
+
+#contactmain form .manualinput, #contactmain form textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    color: aliceblue;
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: 3px 2px 7px black;
+}
+
+#contactmain form textarea{
+    height: 250px;
+}
+
+#contactmain form .manualinput::placeholder, #contactmain form textarea::placeholder{
+    color: white;
+    font-family: 'Blackadder ITC', 'Fairwater Script Light';
+}
+
+.btn-success{
+    width: 100%;
+}
+
+#contactmain form label{
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: 'Blackadder ITC', 'Fairwater Script Light';
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+}
+
+/*Location page========================================*/
+#locationmain section{
+    display: inline-block;
+    vertical-align: top;
+    height: 60vh;
+    width: 45%;
+    margin: 1em;
+    margin-top: 17vh;
+    background-color:coral;
+    border-radius: 20px;
+}
+
+#locationlist{
+    padding: 2em;
+}
+
+#locationlist div:hover{
+    background-color: rgb(245, 149, 113);
+}
+
+#locationmain section div a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Blackadder ITC', 'Fairwater Script Light';
+    font-size: 65px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(209, 91, 110);
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer p{
+    font-weight: 800;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    
+    footer p{
+    	font-size: 2em;
+    }
+    
+    .navbar-toggler{
+    	font-size: 1em;
+    	padding-top: 10px;
+    }
+    
+    .container-fluid{
+    	font-size: 2em;
+    	width: 100%;
+    	position: fixed;
+    	top: 6px;
+    	z-index: 20;
+    	margin-left: 0;
+    	padding-left:0;
+    	background-color: rgb(209, 91, 110);
+    }
+
+    .navbar{
+        text-align: center;
+        height: 6em;
+        width: 100%;
+    }
+
+    #mainsection{
+        height: auto;
+    }
+
+    #mainsection div, #aboutdiv div{
+        display: block;
+    }
+    
+    #whyid{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: rgb(139, 139, 81);
+        color: aliceblue;
+        margin-top: 0;
+        padding: 0.4em;
+        padding-top: 0;
+        font-size: 3em;
+    }
+
+    #mainphoto1{
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #mainphoto1 img{
+        width: 500px;
+        height: 500px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
+    #mainphoto2{
+        text-align: right;
+        width: 100%;
+        margin: 0;
+        margin: 0;
+    }
+
+    #mainphoto2 img{
+        width: 500px;
+        height: 500px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
+    #welcometext{
+        font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+        font-size: 4.5em;
+    }
+
+	#whytext{
+        font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+        font-size: 1em;
+        padding-top: 0;
+    }
+    /*About Screen========================================*/
+
+    
+
+    #aboutphotodiv{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #aboutphotodiv img{
+        width: 100%;
+    }
+
+    #abouttextdiv{
+        width: 100%;
+        padding: 1em;
+        background-color: rgb(139, 139, 81);
+        color:aliceblue;
+        font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+        font-size: 1.2em;
+    }
+    
+    #abouttextdiv p{
+    	font-size: 2em;
+    }
+
+    #ourhistorytext{
+        font-family: 'Blackadder ITC', 'Fairwater Script Light', 'STXingkai';
+        font-size: 3em;
+    }
+
+    #aboutdiv{
+        padding-top: 1em;
+    }
+
+    /*Location Page====================================*/
+    #locationmain section{
+        display: block;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        background-color:coral;
+        border-radius: 20px;
+    }
+    
+    #locationlist{
+        padding: 2em;
+    }
+    
+    #locationlist div:hover{
+        background-color: rgb(245, 149, 113);
+    }
+    
+    #locationmain section div a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Blackadder ITC', 'Fairwater Script Light';
+        font-size: 75px;
+    }
+
+    iframe{
+        height: 50vh;
+    }
+
+    /*Cakes Page=======================================*/
+    #cakesmain{
+        padding-bottom: 3em;
+        height: auto;
+    }
+    .card{
+    	position: relative;
+        width: 98.7%;
+        height: 1000px;
+        background-color: transparent;
+        border: 2px solid black;
+        box-shadow: 3px 3px 15px black;
+        text-align: center;
+    }
+    
+    #cakesection1 .card, #cakesection2 .card, #cakesection3 .card{
+        display: block;
+        position: relative;
+        margin-top: 1em;
+        margin-right: 0.1em;
+        margin-left: 0.1em;
+    }
+    
+    .card img{
+        height: 85%;
+    }
+    
+    .card-body p{
+        color: aliceblue;
+        font-size: 65px;
+        padding: 0;
+        margin: 0;
+        font-family: 'Blackadder ITC', 'Fairwater Script Light';
+    }
+    
+    #cakesmain h1{
+        padding-top: 0;
+        font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+        color: aliceblue;
+        font-weight: 500;
+        font-size: 60px;
+        text-shadow: 3px 3px 6px black;
+    }
+
+    /*Contact Page*/
+    #contactmain h1{
+    position: relative;
+        font-family: 'Fairwater Script Light', 'Informal Roman', sans-serif;
+        font-weight: 600;
+        text-shadow: 2px 2px 7px coral;
+        font-size: 6em;
+    }
+    
+    #contactmain form{
+        display: block;
+        width: 40%;
+        background-color: coral;
+        padding: 4em;
+        border-radius: 15px;
+    }
+    
+    #contactmain form, #contactmain img{
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    #contactmain img{
+        display: none;
+    }
+    
+    #contactmain form .manualinput, #contactmain form textarea{
+        width: 100%;
+        border-radius: 5px;
+        font-size: 3em;
+        text-align: center;
+        color: aliceblue;
+        background-color: transparent;
+        border: 1px solid black;
+        box-shadow: 3px 2px 7px black;
+    }
+    
+    #contactmain form textarea{
+        height: 350px;
+    }
+    
+    #contactmain form .manualinput::placeholder, #contactmain form textarea::placeholder{
+        color: white;
+        font-family: 'Blackadder ITC', 'Fairwater Script Light';
+    }
+    
+    .btn-success{
+        width: 100%;
+        font-size: 3em;
+    }
+    
+    #contactmain form label{
+        color: whitesmoke;
+        font-size: 5em;
+        font-family: 'Blackadder ITC', 'Fairwater Script Light';
+        margin: 0;
+        margin-top: 1em;
+        padding: 0;
+    }
+}
